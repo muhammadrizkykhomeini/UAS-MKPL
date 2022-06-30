@@ -19,7 +19,7 @@ class CalculatorTest {
     @Test
     void testCalc() {
         double first = 3;
-        String second = "5";
+        String second = "7";
 
         try {
             Assertions.assertEquals(8, calculator.calc(first, second, '+'));
